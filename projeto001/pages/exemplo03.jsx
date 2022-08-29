@@ -9,7 +9,7 @@ export default function init(){
 function lista(n){
     const vet=[]
     for(let i=0; i<=n; i++){
-        vet.push(<span>{i}<br/></span>)
+        vet.push(<span>{i} </span>)
     }
     return vet
 }
