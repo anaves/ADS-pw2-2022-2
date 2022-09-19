@@ -6,7 +6,7 @@ export default function init(){
         <>
            <Tabuleiro />
            <h1>OUTRO TABULEIRO</h1>
-           <Tabuleiro dimensao={12}/>
+           <Tabuleiro dimensao={30}/>
 
         </>
     )
