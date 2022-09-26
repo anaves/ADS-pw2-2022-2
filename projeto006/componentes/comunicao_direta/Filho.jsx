@@ -1,7 +1,8 @@
 export default function init(props){
     return (
-        <>
-            <h1>{props.sobrenome}</h1>
-        </>
+        <div style={{display:"flex",alignItem:"center"}}>
+            <h2>{props.nome}</h2>
+            <h2>{props.sobrenome}</h2>
+        </div>
     )
 }

@@ -4,6 +4,8 @@ export default function init(){
         <>
             <h1>Teste Pai</h1>
             <Pai />
+            <h2>------------------------------------</h2>
+            <Pai nome="Cebolinha" sobrenome="Souza"/>
         </>
     )
 }
