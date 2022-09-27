@@ -8,10 +8,9 @@ export default function init(){
     const [x, setX] = useState(0)
     const [y, setY] = useState(0)
 
-
     function moveMouse(evt){
         console.log(evt.clientX, evt.clientY)
-        setX(evt.clientX)
+        setX(evt.clientX)  // x =  evt.clientX (nao funciona)
         setY(evt.clientY)
     }
 
@@ -28,7 +27,5 @@ export default function init(){
             <span>Mouse x: {x}</span>
             <span>Mouse y: {y}</span>
         </div>
-
     )
-
 }
