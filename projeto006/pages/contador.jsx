@@ -24,6 +24,9 @@ export default function init(){
                 <button onClick={sub}>-</button>
                 <button onClick={somar}>+</button>
             </div>
+
+            <Display numero={valor}/>
+            
         </div>
     )
 }
