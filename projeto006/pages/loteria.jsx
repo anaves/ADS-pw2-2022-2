@@ -24,7 +24,7 @@ export default function init(){
     const [valor, setValor] = useState(0)
 
     function renderizaNumeros(){
-        return numeros.map((n, index) => <Display key={index} numero={n} />)
+        return numeros.map((n, index) => <Display key={index} casa={0} numero={n} />)
     }
 
     return (
