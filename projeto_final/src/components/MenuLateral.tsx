@@ -8,9 +8,10 @@ export default function MenuLateral(){
                 LOGO
             </div>
             <ul>
-                <MenuItem url="/" texto="Inicial" icone={iconeCasa} />
+                <MenuItem url="main" texto="Inicial" icone={iconeCasa} />
                 <MenuItem url="ajuda" texto="Ajuda" icone={iconeAjuda} />
                 <MenuItem url="ajustes" texto="Ajustes" icone ={iconeAjustes} />
+                <MenuItem url="/" texto="Logout" icone ={iconeAjustes} />
             </ul>
         </aside>
     )

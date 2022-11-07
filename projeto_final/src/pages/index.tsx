@@ -11,7 +11,9 @@ export default function init(){
             <div className="m-10 w-full md:w-1/2 lg:w-1/3">
                 <CampoTexto label="E-mail" tipo="email" valor="teste" />
                 <CampoTexto label="Senha" tipo="password" valor="teste" />
-                <button className="bg-indigo-500 hover:bg-indigo-400 w-full rounded-lg px-4 py-3 text-white mt-6" onClick={()=>router.push("/")}>Entrar</button>
+                <button className="bg-indigo-500 hover:bg-indigo-400 w-full 
+                rounded-lg px-4 py-3 text-white mt-6" 
+                onClick={()=>router.push("main")}>Entrar</button>
             </div>
         </div>
     )
